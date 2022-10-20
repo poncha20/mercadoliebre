@@ -1,0 +1,438 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+    box-sizing: content-box;
+
+}
+main{
+    box-sizing: border-box;
+    text-align: center;
+    width: 90vw;
+    margin:0 auto;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #ebebeb;
+}
+
+h1, h2, h3{
+    font-size: 24px;
+}
+
+p{
+    font-size: 12px;
+    color: #666;
+    margin-bottom: 60px;
+}
+
+.main-header{
+    
+    background-color: #EAC926;
+    padding: 10px;
+
+}
+
+.logo{
+    margin-left: 0px;
+    width: 30%;
+    padding: 10px;
+
+}
+.pd{
+    display: flex;
+}
+
+.descuento{
+    font-size: 16px;
+    width: 70%;
+    margin: 0px;
+}
+
+
+.main-navbar{
+display:none;
+font-size: 12px;
+
+justify-content: space-between;
+margin-bottom: 50px;
+width: auto;
+}
+    
+   .main-navbar li{
+   margin: 0px 5px;
+   } 
+
+
+.main-navbar ul {
+    list-style: none;
+    margin:0px ;
+    padding:0px ;
+    display: flex;
+}
+
+.main-navbar  a{
+    text-decoration: none;
+    color: #000;
+    display: inline-block;
+    padding: 5px 0;
+}
+
+header .form .input{
+    background-color: #FFF;
+    border: 1px solid #000;
+    outline: none;
+    color: #666;
+    padding: 2px;
+    width: 180%;
+    margin-top: 5%;
+}
+header .form .submit{
+    background-color: #FFF;
+    border: 1px solid #000;
+    color: #666;
+    width: 10%;
+}
+
+.top-header p {
+    margin-right: 10px;
+    
+    width: 50%;
+    
+
+
+}
+.burger-button {
+    background-color: #0044AA;
+    border-radius: 8px;
+    color: #FFF;
+    font-size: 18px;
+    margin: auto;
+    
+    display: block;
+    padding: 15px 0px ;
+    max-width: 50px;
+    text-align: center;
+}
+
+
+    
+
+
+
+.precio{
+    font-size: 18px;
+}
+
+.descuento,
+.descripcion{
+    font-size: 16px;
+    font-weight: normal;
+}
+
+h3,
+.descripcion{
+    color: #666;
+}
+
+
+
+section.banner img{
+    width: 100%;
+}
+
+
+main section article{
+    background-color: #fff;    
+    margin: 10px 0px;
+}
+
+main section article img{
+    width: 100%;
+}
+
+
+.descuento{
+    color: #39b54a;
+}
+
+
+    
+.top-header{
+    display: flex;
+}
+    
+.contendor-top-header{
+    align-items: center;
+    justify-content: space-around;
+    display: flex
+}
+
+.camion{
+    display: block;
+    font-size: 20px;
+    padding: 6px;
+    width: 28px;
+    height: 27px;
+    border: 1px solid #39b54a;
+    background-color: #FFF;
+    border-radius: 50% ;
+    right: -287px;
+    top: -33px;
+    color:#39b54a;
+    position: relative;
+    transform-origin: all 0.5s;
+
+
+    
+}
+
+main section article div p i:hover{
+    transform:rotate(-90deg)
+}
+   .camion:hover{
+    transform: rotate(270deg);
+   } 
+    
+
+
+
+main section h3{
+    margin: 20px 0px;
+}
+
+.flex-conteiner{
+    display: flex;
+}
+
+
+article div.main-article{
+    width: 100%;
+    border-top: 1px solid #ebebeb;
+    padding: 15px;
+}
+
+
+
+
+
+
+
+.precio{
+    width: 30%;
+}
+.descuento{
+    width: 70%;
+}
+ 
+
+
+    
+
+   .main-header p{
+    width: 100%;
+    text-align: right;
+    margin-top: 10px;
+
+   }
+        
+    
+       
+.top-header{
+    align-items: center;
+    
+    display: flex;
+    flex-wrap:wrap;
+
+}
+    
+     
+    main section article{
+        
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    }
+    .productos{
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .productos article{
+        width: 100%;
+    }
+    
+        
+.flex-conteiner{
+    display: flex;
+}
+    
+    .precio{
+        width: 30%;
+    }
+    .descuento{
+        width: 70%;
+    }
+   
+@media (min-width: 769px){
+ 
+
+
+    article{
+        width: 45%
+    }
+    
+    
+    .top-header{
+        justify-content: space-between;
+    
+    }
+.logo{
+    width: 50%;
+}
+    .burger-button{
+        display: none;
+
+    }
+
+    .precio{
+        width: 30%;
+    }
+    .descuento{
+        width: 70%;
+        }
+        .descripcion :hover{
+            display: block;
+            transition: all 0.5;
+
+            
+        }
+  
+
+.descripcion :hover{
+    opacity: 1;
+}
+footer{
+    display: flex;
+}
+.descripcion{
+    display: block;
+    margin-top: 20px;
+}
+}  
+    
+ @media (min-width: 425px ){
+    .logobarra{ 
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: unset;
+        align-items: center;
+        padding: 0px 0px 25px;
+    }
+    .descripcion{
+        margin-top: 20px;
+             }
+    .descripcion:hover{
+        display: block;
+ }
+  
+   main section article{
+    box-shadow: opx opx 10px rgb(100,100,100);
+    }
+   
+.producto article{
+    width:45%;
+}
+   
+
+    
+    .top-header{
+    padding: 5%;}
+
+   
+    .products article{
+        width: 45%;
+    }
+    
+    .contendor-top-header {
+        align-items: center;
+        justify-content: space-around;
+        display: flex;
+    }
+
+    }    
+    
+  
+    .flex-conteiner{
+        display: flex;
+    }
+    .precio{
+        width: 30%;
+    }
+    .descuento{
+        width: 70%;
+    }
+
+
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: rgb(235, 235, 235);
+    color: white;
+    margin-bottom: 50px;
+  }
+  h2{
+    font-size: 24px;
+    margin: 10px;
+    color: #666;
+  }
+  .fa-credit-card:before {
+    content: "\f09d";
+    color:#1259c3 ;
+    font-size: 32px;
+}
+.fa-gift:before {
+    content: "\f06b";
+    color: #1259c3;
+    font-size: 32px;
+}
+.fa-user-shield:before {
+    content: "\f505";
+    color:#1259c3; ;
+    font-size: 32px;
+
+}
+
+
+
+    .descripcion{
+        margin-top: 20px;
+    }
+    .descripcion:hover{
+        display: block;
+    }
+  
+   main section article{
+    box-shadow: opx opx 10px rgb(100,100,100);
+
+   }
+   
+.producto article{
+    width:45%;
+}
+
+    
+
+    
+
+    
+    
+
+footer p {
+    text-align:center;
+
+}
+    
+    
+    
+
+    

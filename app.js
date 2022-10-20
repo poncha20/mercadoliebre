@@ -5,7 +5,8 @@ const app=express();
 const path=require("path");
 const publicPath=path.resolve(__dirname,"./public");
 app.use(express.static(publicPath))
-app.listen(3033,()=>{
+const port=process.env.port||3001;
+app.listen(port,()=>{
     console.log("servidor levantado");
 });
 
